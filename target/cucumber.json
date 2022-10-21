@@ -1,0 +1,577 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 425049000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have already launched the application",
+            "match": {
+              "location": "stepDef.LoginStepDef.i_have_already_launched_the_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-21T15:27:03.532Z",
+        "before": [
+          {
+            "result": {
+              "duration": 890968300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.Hooks.SetUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "This scenario will add a product to cart",
+        "description": "",
+        "id": "this-feature-will-add-a-product-to-the-cart;this-scenario-will-add-a-product-to-cart;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 16302687900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.Hooks.TearDOwn()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 157848100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I entered valid username and password",
+            "match": {
+              "location": "stepDef.HomePageTestDef.i_entered_valid_username_and_password()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 96865600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on LoginButton",
+            "match": {
+              "location": "stepDef.LoginStepDef.i_click_on_LoginButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 148742200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on Add to Cart of the \"Sauce Labs Backpack\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sauce Labs Backpack\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDef.HomePageTestDef.i_click_on_Add_to_Cart_of_the(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 104844500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "\"Sauce Labs Backpack\" should be added to the cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sauce Labs Backpack\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepDef.HomePageTestDef.should_be_added_to_the_cart(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 384043500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have already launched the application",
+            "match": {
+              "location": "stepDef.LoginStepDef.i_have_already_launched_the_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-21T15:27:21.703Z",
+        "before": [
+          {
+            "result": {
+              "duration": 536313300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.Hooks.SetUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "This scenario will add a product to cart",
+        "description": "",
+        "id": "this-feature-will-add-a-product-to-the-cart;this-scenario-will-add-a-product-to-cart;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 16255545000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.Hooks.TearDOwn()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 149678100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I entered valid username and password",
+            "match": {
+              "location": "stepDef.HomePageTestDef.i_entered_valid_username_and_password()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 108770700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on LoginButton",
+            "match": {
+              "location": "stepDef.LoginStepDef.i_click_on_LoginButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 141212500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on Add to Cart of the \"Sauce Labs Fleece Jacket\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sauce Labs Fleece Jacket\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDef.HomePageTestDef.i_click_on_Add_to_Cart_of_the(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 101135600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "\"Sauce Labs Fleece Jacket\" should be added to the cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sauce Labs Fleece Jacket\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepDef.HomePageTestDef.should_be_added_to_the_cart(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "This feature will add a product to the cart",
+    "description": "",
+    "id": "this-feature-will-add-a-product-to-the-cart",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Homepage.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 384146900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have already launched the application",
+            "match": {
+              "location": "stepDef.LoginStepDef.i_have_already_launched_the_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-21T15:27:39.384Z",
+        "before": [
+          {
+            "result": {
+              "duration": 521395900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.Hooks.SetUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "This scenario defined the positive login with valid credentials",
+        "description": "",
+        "id": "login-feature-scenario;this-scenario-defined-the-positive-login-with-valid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 84208500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.Hooks.TearDOwn()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 139384000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter the username as \"standard_user\" and password as \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 56
+                }
+              ],
+              "location": "stepDef.LoginStepDef.i_enter_username_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 105724100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on LoginButton",
+            "match": {
+              "location": "stepDef.LoginStepDef.i_click_on_LoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 99223000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I  should land on the home page",
+            "match": {
+              "location": "stepDef.LoginStepDef.i_should_land_on_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 415856800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have already launched the application",
+            "match": {
+              "location": "stepDef.LoginStepDef.i_have_already_launched_the_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-21T15:27:40.725Z",
+        "before": [
+          {
+            "result": {
+              "duration": 672038900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.Hooks.SetUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "This scenario defined the positive login with valid credentials",
+        "description": "",
+        "id": "login-feature-scenario;this-scenario-defined-the-positive-login-with-valid-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 48726100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.Hooks.TearDOwn()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 135831800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter the username as \"problem_user\" and password as \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"problem_user\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 55
+                }
+              ],
+              "location": "stepDef.LoginStepDef.i_enter_username_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 99695800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on LoginButton",
+            "match": {
+              "location": "stepDef.LoginStepDef.i_click_on_LoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29565800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I  should land on the home page",
+            "match": {
+              "location": "stepDef.LoginStepDef.i_should_land_on_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 436136400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have already launched the application",
+            "match": {
+              "location": "stepDef.LoginStepDef.i_have_already_launched_the_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-21T15:27:42.130Z",
+        "before": [
+          {
+            "result": {
+              "duration": 668925600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.Hooks.SetUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "This scenario defined the positive login with valid credentials",
+        "description": "",
+        "id": "login-feature-scenario;this-scenario-defined-the-positive-login-with-valid-credentials;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 16269440000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.Hooks.TearDOwn()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 177084500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter the username as \"performance_glitch_user\" and password as \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"performance_glitch_user\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 66
+                }
+              ],
+              "location": "stepDef.LoginStepDef.i_enter_username_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5089497000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on LoginButton",
+            "match": {
+              "location": "stepDef.LoginStepDef.i_click_on_LoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21762700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I  should land on the home page",
+            "match": {
+              "location": "stepDef.LoginStepDef.i_should_land_on_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Login feature scenario",
+    "description": "",
+    "id": "login-feature-scenario",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/login.feature",
+    "tags": []
+  }
+]
